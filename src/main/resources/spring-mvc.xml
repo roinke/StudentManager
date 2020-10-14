@@ -37,6 +37,7 @@
             <mvc:mapping path="/**/*"/>
             <bean class="net.roink.utils.PathInterceptor" />
         </mvc:interceptor>
+
         <mvc:interceptor>
             <mvc:mapping path="/**/*"/>
             <mvc:exclude-mapping path="/login"/>
